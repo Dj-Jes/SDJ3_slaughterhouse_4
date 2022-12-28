@@ -14,7 +14,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="SlaughterHouse" value="da220948-b152-41d0-8bb8-a3a544f9b85f" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
